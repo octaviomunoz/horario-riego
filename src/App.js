@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import Day from './components/Day'
+
+import {
+  lunes,
+  martes,
+  miercoles,
+  jueves,
+  viernes,
+  sabado,
+  domingo,
+} from './util/horarios.js'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="text-center text-6xl font-bold mb-10">
+        Horarios de Riego
+      </h1>
+      <Day diaName="Lunes" horary={lunes} />
+      <Day diaName="Martes" horary={martes} />
+      <Day diaName="Miercoles" horary={miercoles} />
+      <Day diaName="Jueves" horary={jueves} />
+      <Day diaName="Viernes" horary={viernes} />
+      <Day diaName="Sabado" horary={sabado} />
+      <Day diaName="Domingo" horary={domingo} />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
