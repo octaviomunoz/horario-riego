@@ -101,7 +101,7 @@ export const martes = [
 
 export const miercoles = [
   {
-    user: user.alejo,
+    user: user.narciso,
     cantidadHora: 6,
     horaFinal: '06:00',
 
