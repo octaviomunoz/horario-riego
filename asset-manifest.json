@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/horario-riego/static/css/main.51b97da3.css",
-    "main.js": "/horario-riego/static/js/main.e19fff17.js",
+    "main.css": "/horario-riego/static/css/main.dd9c692e.css",
+    "main.js": "/horario-riego/static/js/main.2dd954a1.js",
     "index.html": "/horario-riego/index.html",
-    "main.51b97da3.css.map": "/horario-riego/static/css/main.51b97da3.css.map",
-    "main.e19fff17.js.map": "/horario-riego/static/js/main.e19fff17.js.map"
+    "main.dd9c692e.css.map": "/horario-riego/static/css/main.dd9c692e.css.map",
+    "main.2dd954a1.js.map": "/horario-riego/static/js/main.2dd954a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.51b97da3.css",
-    "static/js/main.e19fff17.js"
+    "static/css/main.dd9c692e.css",
+    "static/js/main.2dd954a1.js"
   ]
 }
